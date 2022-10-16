@@ -1,0 +1,43 @@
+#services {
+  margin: 20px;
+  background-image: url(../images/services/splash.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+
+  .services {
+    width: 335px;
+    margin: 5px auto 40px 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: 70px 1fr;
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+    grid-column: 1/2;
+  }
+
+  h3 {
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: $regular;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    color: $white;
+    grid-column: 1/3;
+  }
+}
